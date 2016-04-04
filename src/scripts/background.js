@@ -9,10 +9,10 @@
 *******************************************************************************/
 
 // The address to check when testing for network availability.
-var RELIABLE_CHECKPOINT = 'http://www.google.com/';
+var RELIABLE_CHECKPOINT = 'http://www.baidu.com/';
 
 // A regex that must match the checkpoint result (for detecting proxy portals).
-var RELIABLE_CHECKPOINT_REGEX = /Google/;
+var RELIABLE_CHECKPOINT_REGEX = /Baidu/;
 
 // Default interval between checks.
 var DEFAULT_CHECK_INTERVAL = 3 * 60 * 60 * 1000;
